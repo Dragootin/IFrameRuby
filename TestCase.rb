@@ -31,7 +31,7 @@ driver.switch_to.frame iframe
 sleep 2
 driver.find_element(:partial_link_text,"mail").click
 driver.switch_to.default_content
-driver.title.include?('Google Maps')
+
 
 
 
